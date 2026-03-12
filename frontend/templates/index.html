@@ -1458,6 +1458,8 @@ function runPhase(){
 }
 function clearPH(){['p-in','p-hold','p-out'].forEach(function(id){document.getElementById(id).classList.remove('active');});}
 function resetBreath(){bOn=false;clearTimeout(bTimer);bCycles=0;bPhase=0;document.getElementById('b-count').textContent='0';document.getElementById('orb').className='';document.getElementById('orb-lb').textContent='Tap to Start';clearPH();}
+with:
+  path: 'frontend/templates'
 </script>
 </body>
 </html>
